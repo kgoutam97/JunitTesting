@@ -19,6 +19,7 @@ public class SomeBusinessImpl {
 	}
 	
 	public int calculateSumUsingDataSevices() {
+		//testing class
 		int sum =0;
 		int[] data =someDataService.retieveDataServices();
 		for(int b:data) {
